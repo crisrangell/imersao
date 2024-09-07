@@ -1,0 +1,129 @@
+@charset "UFT-8";
+
+/*Fonte Importada do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0e68c67;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+header h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Lilita One", sans-serif;
+    color:#512f19;
+    font-size: 2.8em;
+    
+}
+
+section input{ 
+    width: 300px;
+    border: none;
+    padding:10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #45474B;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+section button{
+    margin-left: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #512f19;
+    padding: 0.5em;
+    color: rgba(255, 255, 255, 0.639);
+    cursor: pointer;
+}
+section button:hover{
+    background-color: #512f1976;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.701);
+    color:white ;
+}
+
+.resultado-pesquisa{
+    max-width: 600px ;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.item-resultados{
+    background-color: rgba(255, 255, 255, 0.486);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Ajuste a altura conforme necessário */
+  }
+  
+aside img {
+    width: 280px; /* Ajuste a largura conforme necessário */
+  }
+
+h2{
+    font-family: "Concert One", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #512f19;
+
+}
+
+a{
+    text-decoration: none;
+    color: #512f19;
+    font-style: italic;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+footer{
+    background-color: #512f19;
+    color: white;
+    padding-top: 10px; /* Espaçamento interno */
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
+    
+    
+
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 10px;
+
+    
+
+}
