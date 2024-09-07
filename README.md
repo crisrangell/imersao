@@ -2,7 +2,7 @@
 
 Já sentiu aquela nostalgia batendo e quis relembrar dos seus seriados favoritos? Essa aplicação te ajuda a fazer isso!
 
-Com ela, você pode digitar o nome de séries famosas aqui no Brasil e descobrir informações legais, como sinopse, gif e até informações mais detalhada. É como ter uma máquina do tempo para seus momentos favoritos na TV! ⏰
+Com ela, você pode digitar o nome de séries famosas aqui no Brasil e descobrir informações legais, como sinopse, gif e até informações mais detalhadas. É como ter uma máquina do tempo para seus momentos favoritos na TV! ⏰
 
 **Como Funciona?**
 
