@@ -45,4 +45,12 @@ let dados = [
         
      },
 
+     {
+      titulo:"Chapolin Colorado",
+      descricao: "O Chapolín Colorado é um super-herói cômico e atrapalhado criado por Roberto Gómez Bolaños, mais conhecido como Chespirito. Com sua roupa vermelha, antenas e marreta biônica, ele é chamado para ajudar aqueles que estão em apuros, sempre com muito humor e desastrado.",
+      link:"https://pt.wikipedia.org/wiki/El_Chapul%C3%ADn_Colorado",
+      imagem:"imagens/chapolin-colorado.gif"
+      
+   },
+
 ];

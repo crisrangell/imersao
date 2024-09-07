@@ -12,18 +12,29 @@
 
 body{
     background-color: #f0e68c67;
+    background-image: url(imagens/designer2.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    
     text-align: center;
-    display: flex;
     flex-direction: column;
     justify-content: center; 
 }
 
+
+header{
+    background-color: #e0d6d0c5;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.568);
+}
 header h1{
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: "Lilita One", sans-serif;
     color:#512f19;
     font-size: 2.8em;  
+    text-shadow: 1px 1px 1px rgba(249, 245, 245, 0.363);
 }
 
 section input{ 
@@ -43,15 +54,17 @@ section button{
     margin-left: 5px;
     border-radius: 20px;
     border: none;
-    background-color: #512f19;
+    background-color: #271207;
     padding: 0.5em;
-    color: rgba(255, 255, 255, 0.639);
+    color: rgba(255, 255, 255, 0.909);
     cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.808);
 }
 section button:hover{
-    background-color: #512f1976;
+    background-color: #512f19;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.701);
     color:white ;
+    
 }
 
 .resultado-pesquisa{
@@ -63,7 +76,7 @@ section button:hover{
 }
 
 .item-resultados{
-    background-color: rgba(255, 255, 255, 0.486);
+    background-color: rgba(255, 255, 255, 0.92);
     margin: 10px;
     padding: 20px;
     border-radius: 20px;
@@ -72,6 +85,8 @@ section button:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: justify;
+    text-indent: 1em;
+    line-height: 1.5em;
     
 }
 
@@ -103,7 +118,7 @@ a{
 }
 
 a:hover{
-    color: blue;
+    color: black;
 }
 
 
@@ -114,9 +129,7 @@ footer{
     padding-top: 10px; /* Espaçamento interno */
     width: 100%; 
     position: fixed; 
-    bottom: 0; 
-    
-    
+    bottom: 0;   
 
 }
 
@@ -125,6 +138,8 @@ footer p{
     text-align: center;
     padding-bottom: 10px;
 
-    
+}
 
+.site{
+    color: white;
 }
